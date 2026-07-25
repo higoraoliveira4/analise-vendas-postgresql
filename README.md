@@ -135,9 +135,9 @@ cliente → venda → item da venda → produto
 
 As tabelas foram conectadas por meio de chaves primárias e estrangeiras, utilizando INNER JOIN nos seguintes relacionamentos:
 
-clientes.idcliente com vendas.idcliente
-vendas.idvenda com itensvenda.idvenda
-itensvenda.idproduto com produtos.idproduto
+- clientes.idcliente com vendas.idcliente
+- vendas.idvenda com itensvenda.idvenda
+- itensvenda.idproduto com produtos.idproduto
 
 O SELECT define os campos exibidos, o WHERE filtra o cliente analisado e o ORDER BY organiza as compras pela data.
 

@@ -64,7 +64,10 @@ vendedores
    │ idvendedor
    ▼
 vendas
-Organização dos arquivos
+
+'''
+## Organização dos arquivos
+
 analise-vendas-postgresql/
 ├── database/
 │   ├── 01_create_tables.sql
@@ -76,12 +79,14 @@ analise-vendas-postgresql/
 ├── consultas/
 │   └── 01_compras_cliente.sql
 └── README.md
-Tecnologias utilizadas
+
+## Tecnologias utilizadas
 PostgreSQL
 SQL
 Ubuntu
 AWS EC2
-Como executar
+
+## Como executar
 1. Criar o banco de dados
 
 Acesse o PostgreSQL e crie um banco para o projeto:
@@ -141,8 +146,6 @@ tabela1.coluna = tabela2.coluna
 
 O SELECT define os campos exibidos, o WHERE seleciona o cliente analisado e o ORDER BY organiza as compras pela data.
 
-
-```
 
 ## Aprendizados
 

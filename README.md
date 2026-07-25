@@ -123,7 +123,7 @@ Quantidade
 Valor total do item
 Data da venda
 
-## Exemplo de resultado:
+Exemplo de resultado:
 
 cliente       | produto     | quantidade | valortotal | data
 --------------+-------------+------------+------------+------------
@@ -140,6 +140,9 @@ Cada INNER JOIN conecta duas tabelas por uma coluna relacionada:
 tabela1.coluna = tabela2.coluna
 
 O SELECT define os campos exibidos, o WHERE seleciona o cliente analisado e o ORDER BY organiza as compras pela data.
+
+
+```
 
 ## Aprendizados
 

@@ -123,7 +123,7 @@ Quantidade
 Valor total do item
 Data da venda
 
-Exemplo de resultado:
+## Exemplo de resultado:
 
 cliente       | produto     | quantidade | valortotal | data
 --------------+-------------+------------+------------+------------
@@ -141,7 +141,7 @@ tabela1.coluna = tabela2.coluna
 
 O SELECT define os campos exibidos, o WHERE seleciona o cliente analisado e o ORDER BY organiza as compras pela data.
 
-Aprendizados
+## Aprendizados
 
 Durante o desenvolvimento, foram praticados:
 
@@ -152,7 +152,7 @@ Seleção de campos em diferentes tabelas
 Aplicação de filtros numéricos
 Organização e documentação de arquivos SQL
 
-Observação
+## Observação
 
 A estrutura inicial da base de dados foi disponibilizada como material de apoio durante um curso de PostgreSQL.
 

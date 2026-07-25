@@ -66,7 +66,8 @@ vendedores
 vendas
 
 
-## Organização dos arquivos
+
+Organização dos arquivos
 
 analise-vendas-postgresql/
 ├── database/

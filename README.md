@@ -1,5 +1,3 @@
-# analise-vendas-postgresql
-Projeto de banco de dados relacional para análise de clientes, vendas e produtos utilizando PostgreSQL.
 # Análise de Vendas com PostgreSQL
 
 Projeto de banco de dados relacional desenvolvido em PostgreSQL para praticar a criação de tabelas, inserção de dados e consultas SQL aplicadas a um cenário de vendas.
@@ -153,12 +151,10 @@ Construção de consultas com múltiplos JOINs
 Seleção de campos em diferentes tabelas
 Aplicação de filtros numéricos
 Organização e documentação de arquivos SQL
+
 Observação
 
 A estrutura inicial da base de dados foi disponibilizada como material de apoio durante um curso de PostgreSQL.
 
 A organização do repositório, a documentação e as consultas apresentadas foram desenvolvidas durante o processo de aprendizagem.
 
-→ Como executar
-→ Exemplo de uso
-→ Aprendizados

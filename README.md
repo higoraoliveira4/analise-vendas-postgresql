@@ -83,10 +83,10 @@ analise-vendas-postgresql/
 └── README.md
 
 ## Tecnologias utilizadas
-PostgreSQL
-SQL
-Ubuntu
-AWS EC2
+- PostgreSQL
+- SQL
+- Ubuntu
+- AWS EC2
 
 ## Como executar
 1. Criar o banco de dados

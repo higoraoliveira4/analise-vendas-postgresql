@@ -66,20 +66,6 @@ vendedores
 vendas
 
 
-
-Organização dos arquivos
-
-analise-vendas-postgresql/
-├── database/
-│   ├── 01_create_tables.sql
-│   ├── 02_insert_clientes.sql
-│   ├── 03_insert_produtos.sql
-│   ├── 04_insert_vendedores.sql
-│   ├── 05_insert_vendas.sql
-│   └── 06_insert_itens_venda.sql
-├── consultas/
-│   └── 01_compras_cliente.sql
-└── README.md
 ```
 
 ## Tecnologias utilizadas

@@ -65,7 +65,8 @@ vendedores
    ▼
 vendas
 
-'''
+```
+
 
 ## Organização dos arquivos
 

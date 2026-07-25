@@ -65,8 +65,6 @@ vendedores
    ▼
 vendas
 
-```
-
 
 ## Organização dos arquivos
 
@@ -81,6 +79,7 @@ analise-vendas-postgresql/
 ├── consultas/
 │   └── 01_compras_cliente.sql
 └── README.md
+```
 
 ## Tecnologias utilizadas
 - PostgreSQL

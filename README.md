@@ -125,29 +125,33 @@ Cliente Exemplo | Produto A | 2          | 150.00     | 2026-01-10
 Cliente Exemplo | Produto B | 1          | 80.00      | 2026-02-15
 ```
 
-## Conceitos aplicados na consulta
+### Conceitos aplicados na consulta
 
-Para chegar ao resultado, foi necessário percorrer os relacionamentos:
+Para chegar ao resultado, foi necessário percorrer os relacionamentos entre as tabelas:
 
+```text
 cliente → venda → item da venda → produto
+```
 
-Cada INNER JOIN conecta duas tabelas por uma coluna relacionada:
+As tabelas foram conectadas por meio de chaves primárias e estrangeiras, utilizando INNER JOIN nos seguintes relacionamentos:
 
-tabela1.coluna = tabela2.coluna
+clientes.idcliente com vendas.idcliente
+vendas.idvenda com itensvenda.idvenda
+itensvenda.idproduto com produtos.idproduto
 
-O SELECT define os campos exibidos, o WHERE seleciona o cliente analisado e o ORDER BY organiza as compras pela data.
+O SELECT define os campos exibidos, o WHERE filtra o cliente analisado e o ORDER BY organiza as compras pela data.
 
 
 ## Aprendizados
 
 Durante o desenvolvimento, foram praticados:
 
-Leitura de um modelo relacional
-Identificação de chaves primárias e estrangeiras
-Construção de consultas com múltiplos JOINs
-Seleção de campos em diferentes tabelas
-Aplicação de filtros numéricos
-Organização e documentação de arquivos SQL
+- Leitura de um modelo relacional
+- Identificação de chaves primárias e estrangeiras
+- Construção de consultas com múltiplos JOINs
+- Seleção de campos em diferentes tabelas
+- Aplicação de filtros numéricos
+- Organização e documentação de arquivos SQL
 
 ## Observação
 

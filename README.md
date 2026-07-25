@@ -125,7 +125,7 @@ Cliente Exemplo | Produto A | 2          | 150.00     | 2026-01-10
 Cliente Exemplo | Produto B | 1          | 80.00      | 2026-02-15
 ```
 
-Conceitos aplicados na consulta
+## Conceitos aplicados na consulta
 
 Para chegar ao resultado, foi necessário percorrer os relacionamentos:
 

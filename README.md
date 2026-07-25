@@ -80,6 +80,7 @@ vendas
 Acesse o PostgreSQL e crie um banco para o projeto:
 
 CREATE DATABASE analise_vendas;
+
 2. Executar os arquivos da base
 
 Os arquivos da pasta database devem ser executados seguindo a ordem numérica:
